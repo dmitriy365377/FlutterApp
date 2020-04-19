@@ -9,7 +9,8 @@ class Quiz extends StatelessWidget {
   final Function answerQeustion;
 
   Quiz(
-      {@required this.questions,
+      {
+      @required this.questions,
       @required this.answerQeustion,
       @required this.questionIndex});
 
